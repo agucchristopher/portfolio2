@@ -74,7 +74,7 @@
   <div class="col-sm-6">
     <h1 class="intro">Hi,</h1>
 	<div class="intro">
-<h1 id="type"></h1> <script>     var string = "am Christopher a Web Developer You Can Get My Services By Filling The Form Below \n Thank You.... ";     var array = string.split("");     var timer;
+<h1 id="type"></h1> <script>     var string = "am Christopher a Web Developer Thanks for visiting this website \n Thank You.... ";     var array = string.split("");     var timer;
     function looper() {       if (array.length > 0) {         document.getElementById("type").innerHTML += array.shift();       } else {         clearTimeout(looper);       }       timer = setTimeout('looper()', 50);     }     looper();   </script>
 	</div>
   </div>
