@@ -23,8 +23,9 @@
           <a class="nav-link" href="#">Projects</a>
         </li>  
         </li> 
+<div class="rowbtn">
   <li class="nav-item">
-          <a class="nav-link" href="https://github. com/dev-kay1"> <i class="bi bi-github"></i> </a>
+          <a class="nav-link" href="https://github.com/dev-kay1"> <i class="bi bi-github"></i> </a>
         </li>  
         </li>  
  <li class="nav-item">
@@ -33,6 +34,7 @@
  <li class="nav-item">
           <a class="nav-link" href="https://twitter.com/agucchristophe1"> <i class="bi bi-twitter"></i></a>
         </li>
+</div>
         <li class="nav-item">
   </li>
       </ul>
