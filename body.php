@@ -23,7 +23,7 @@
           <a class="nav-link" href="#">Projects</a>
         </li>  
         </li> 
-<div class="rowbtn">
+<div >
   <li class="nav-item">
           <a class="nav-link" href="https://github.com/dev-kay1"> <i class="bi bi-github"></i> </a>
         </li>  
