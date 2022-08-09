@@ -12,20 +12,19 @@
           <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>  
   <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills">Skills</a>
   <li class="nav-item">
           <a class="nav-link" href="#">Projects</a>
         </li>  
         </li> 
-<div >
   <li class="nav-item">
-          <a class="nav-link" href="https://github.com/dev-kay1"> <i class="bi bi-github"></i> </a>
+          <a class="nav-link" href="https://github. com/dev-kay1"> <i class="bi bi-github"></i> </a>
         </li>  
         </li>  
  <li class="nav-item">
@@ -34,7 +33,6 @@
  <li class="nav-item">
           <a class="nav-link" href="https://twitter.com/agucchristophe1"> <i class="bi bi-twitter"></i></a>
         </li>
-</div>
         <li class="nav-item">
   </li>
       </ul>
@@ -122,9 +120,9 @@ timerr = setTimeout('looperr()', 150);
  </div>
 </div>
 <br />
-<hr />
+<hr id="contact" />
 <div class="container-fluid">
-<div id="contact">
+<div id="">
 <form action="php/form.php" method="get" accept-charset="utf-8">
   <h4 class="center">Contact Form</h4>
   <div class="input form-control">
@@ -145,9 +143,10 @@ timerr = setTimeout('looperr()', 150);
     <br />
     <h1 class="rowbtn">OR</h1>
     <div class="rowbtn">
-  <a class="i" href="https://instagram.com/devkay1"><i class="bi bi-instagram"></i></a>
-  <a class="i" href="https://instagram.com/devkay1"><i class="bi bi-facebook"></i></a>
-  <a class="i" href="https://instagram.com/devkay1"><i class="bi bi-linkedin"></i></a>
+<i class="bi bi-instagram">
+  <a class="i text-dark" href="https://instagram.com/devkay1"></a></i>
+  <i class="bi bi-facebook"><a class="i" href="https://instagram.com/devkay1"></a></i>
+  <i class="bi bi-linkedin"><a class="i" href="https://instagram.com/devkay1"></a></i>
   </div>
 </form>
 </div>
@@ -191,7 +190,7 @@ timerr = setTimeout('looperr()', 150);
  <div class="card-body">
    <br />
  <h4 class="card-title underline">About Me</h4>
-<h4 id="typeb"></h4> <script>     let strings = "Hi am Agu C. Christopher a web developer am 14 years old am a Nigerian and hail from Umuota village in Umuhu Community in Imo State. \n  \n I love coding and watching  movies  \n\n I currently code with Html, Css, Javascript, React Native, React.js, Bootstrap, Php and Mysql. \n \n Thanks .";
+<h4 id="typeb"></h4> <script>     let strings = "Hi am Agu C. Christopher a Software developer am 14 years old am a Nigerian and hail from Imo State. \n  \n I love coding and watching sci-fi movies  \n\n I currently code with Html, Css, Javascript, React Native, React.js, Bootstrap, Php and Mysql. \n \n Thanks.";
  let arrayy = strings.split("");     let timer;
     function looper() {       if (arrayy.length > 0) {         document.getElementById("typeb").innerHTML += arrayy.shift(""); 
       
@@ -208,13 +207,54 @@ timerr = setTimeout('looperr()', 150);
 </div>
     <hr class="full" />
 <script src="js/index.js"></script>
-<div class="skills">
- <h1 class="rowbtn">
-   <i class="bi bi-code"></i> My Skills </h1>
+<div id="skills" class="skills">
+ <h1 style="text-align:center;">
+   <i class="bi bi-code"></i> My Skills and Tools </h1>
    <hr />
-   </div>
-   <div>
-     <i class=""></i>
-   </div>
+   <div class="center">
+     <i class="fab fa-html5"></i>
+     <span>Level: Intermediate </span>
+    <i class="fab fa-css3"></i>
+<span>Level: Intermediate </span>
+     <i class="fab fa-js"></i>
+<span>Level: Intermediate</span>
+     <i class="fab fa-react"></i>
+  <span>Level: Begineer</span>
+     <i class="fab fa-php"></i>
+     <span>Level: Intermediate</span>
+    
+     <i class="fab fa-bootstrap"></i>
+     <span>Level: Intermediate</span>
+       <i class="fab fa-python"></i>
+       <i class="fab fa-apple"></i>
+       <i class="fab fa-java"></i>
+       <i class="fab fa-swift"></i>
+       <i class="fab fa-linux"></i>
+       <i class="fab fa-android"></i>
+       <i class="fab fa-node"></i>
+       <i class="fab fa-figma"></i>
+  <i class="fab fa-aws"></i>  
+  <i class="fab fa-cpp"></i></div>
+     
+     </div>
+     <hr />
+     <div id="project" class="project">
+       <h2 class="" style="text-align:center;"><i class="fa fa-tools"></i> Projects and accomplishment</h2>
+       <hr />
+       <ol>
+         <li class="project">
+           <h1>My Portfolio</h1>
+           <h3>My Second Portfolio made with HTML, CSS, Javascript, Bootstrap, Php</h3>
+           <img class="img-fluid" src="images/portfolio.png" alt="" />
+           <h3>Status: working </h3>
+           </li>
+           <li class="project">
+             <h1>EasyRoutes</h1>
+             <h3>A mobile that is used to order food online made with React Native and Expo</h3>
+             <img class="img img-fluid" src="images/easyroutes.png" alt="" />
+             <h3>Status: working</h3>
+           </li>
+       </ol>
+     </div>
 </body>
 </html>
