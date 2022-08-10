@@ -4,11 +4,3 @@
 <?php 
 include("index.html");
 ?>
-/*
-<?php 
-include("body.php");
-?>
-<?php 
-include("footer.php");
-?>
-*/
